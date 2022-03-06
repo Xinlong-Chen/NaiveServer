@@ -1,0 +1,53 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+Makefile
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/
+build/
+sql.output
+sql.tab.c
+sql.tab.h
+sql.yy.c
+
+*.o
+*.swp
+*.pyc
+*.bak
+a.out
+.ycm/*
+build/
+.vscode/*
+!.gitignore
+.DS_Store
